@@ -1,7 +1,7 @@
 # Interactive-Client-Server-Java
 
 ## Project Overview
-This is a Java client-server application where a terminal-based server manages a list of integers (`inputValues`) and a GUI-based client sends structured commands to interact with it. The client displays server responses in a readable format, allowing users to perform operations on the list dynamically.
+This is a Java client-server application where a **terminal-based server** manages a list of integers (`inputValues`) and a **GUI-based client** sends structured commands to interact with it. The client displays server responses in a readable format, allowing users to perform operations on the list dynamically.
 
 The application demonstrates **socket programming**, **interactive communication**, and **basic GUI design** in Java.
 
@@ -21,9 +21,3 @@ The application demonstrates **socket programming**, **interactive communication
 | `Exit`           | Close the client application (server continues running)                     |
 
 **Message Format**:  
-
-Sender: <Sender_ID>; Receiver: <Receiver_ID>; Payload: <Command>
-
-Example: 
-
-Sender: User_A; Receiver: Server_A; Payload: Add 54
