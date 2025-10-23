@@ -21,3 +21,9 @@ The application demonstrates **socket programming**, **interactive communication
 | `Exit`           | Close the client application (server continues running)                     |
 
 **Message Format**:  
+
+Sender: <Sender_ID>; Receiver: <Receiver_ID>; Payload: <Command>
+
+Example: 
+
+Sender: User_A; Receiver: Server_A; Payload: Add 54
