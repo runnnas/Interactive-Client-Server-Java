@@ -1,3 +1,4 @@
+```markdown
 # Interactive-Client-Server-Java
 
 ## Project Overview
@@ -21,3 +22,50 @@ The application demonstrates **socket programming**, **interactive communication
 | `Exit`           | Close the client application (server continues running)                     |
 
 **Message Format**:  
+Sender: <Sender_ID>; Receiver: <Receiver_ID>; Payload: <Command>
+
+Example:  
+Sender: User_A; Receiver: Server_A; Payload: Add 54
+
+---
+
+## Project Structure
+Interactive-Client-Server-Java/
+├─ Server/ → Terminal-based server
+│ └─ Server_A.java
+├─ Client/ → GUI-based client
+│ └─ ClientGUI_.java
+└─ README.md → Project overview and instructions
+
+---
+
+## How to Run
+
+1. **Compile the server and client**
+
+```bash
+javac Server/Server_A.java
+javac Client/ClientGUI_.java
+```
+
+2. **Start the server**
+
+```bash
+java Server.Server_A
+```
+
+3. **Start the client**
+
+```bash
+java Client.ClientGUI_
+```
+
+Use the GUI to select or type commands. The server will respond according to the operations performed.
+
+## Requirements
+- Java JDK 11 or higher
+- GUI library (Swing or JavaFX, depending on your implementation)
+- Basic terminal/command-line access
+
+---
+```
